@@ -4,7 +4,7 @@ const Home = () => {
     return(
     <>
      <div className="App">
-     <Gallery/>
+     <Gallery favorites={false}/>
      </div>
        
     </>

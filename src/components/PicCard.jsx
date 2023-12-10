@@ -18,13 +18,12 @@ const PicCard = ({ pic }) => {
   };
 
   return (
-    <div className="PicCard">
+    <div className="photo" style={{backgroundImage: `url(${url})`}}>
         <button onClick={() => changeFav(pic)}>
             <IconHeart filled={filled}/>
         </button>
         
-        <img src={url} width="100" />
-
+       
 
        
        
